@@ -7,7 +7,7 @@ Stuff to prepare for training object detection
 
 -clone https://github.com/AlexeyAB/darknet  
 -make (GPU=1) (CUDNN=1) (for GPU and CUDA Support)  
--mkdir data/obj
+-mkdir data/obj  
 -add yolo-obj.cfg to cfg folder  (adjust batch, subdivisions, classes, filters)  
 -add obj.names to cfg  (adjust object names)  
 -add obj.data to cfg   (adjust class number)  
