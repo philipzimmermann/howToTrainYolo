@@ -12,6 +12,7 @@ Stuff to prepare for training object detection
 -add obj.data to build/darknet/x64/data/   (adjust class number)  
 -put images .jpg in directory build/darknet/x64/data/obj/  
 -add labels to build/darknet/x64/data/obj/  
+-(convert labels? https://github.com/Guanghan/darknet/blob/master/scripts/convert.py)  
 -run process.py to create train.txt and test.txt  
 wget https://pjreddie.com/media/files/darknet53.conv.74 (to build/darknet/x64)  
 -start training: ./darknet detector train data/obj.data yolo-obj.cfg darknet53.conv.74  
