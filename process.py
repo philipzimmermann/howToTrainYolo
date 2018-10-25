@@ -4,7 +4,7 @@ import glob, os
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Directory where the data will reside, relative to 'darknet.exe'
-path_data = '/build/darknet/x64/data/obj/'
+path_data = 'data/obj/'
 
 # Percentage of images to be used for the test set
 percentage_test = 10;
