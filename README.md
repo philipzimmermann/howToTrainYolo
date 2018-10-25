@@ -30,7 +30,7 @@ cd darknet
 make  
 mkdir data/obj  
 cd ..  
-cp howToTrainYolo/yolo-obj.cfg howToTrainYolo/obj.names howToTrainYolo/obj.data darknet/data/obj  
+cp howToTrainYolo/yolo-obj.cfg howToTrainYolo/obj.names howToTrainYolo/obj.data darknet/cfg/  
 cp NFPA\ dataset/* darknet/data/obj  
 cp howToTrainYolo/process.py darknet/data/obj  
 python2.7 darknet/data/obj/process.py  
