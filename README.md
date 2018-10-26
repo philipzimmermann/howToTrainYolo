@@ -8,10 +8,10 @@ Stuff to prepare for training object detection
 -clone https://github.com/AlexeyAB/darknet  
 -make (GPU=1) (CUDNN=1) (for GPU and CUDA Support)  
 -mkdir data/obj  
--add yolo-obj.cfg to cfg folder  (adjust batch, subdivisions, classes, filters)  
+-add yolo-obj.cfg to cfg folder  (adjust batch, subdivisions, classes, filters) (It's the yolo v3 config with changes)  
 -add obj.names to cfg  (adjust object names)  
 -add obj.data to cfg   (adjust class number)  
--put images .jpg in directory data/obj  
+-put .jpg images in directory data/obj  
 -add labels to data/obj/  
 -(convert labels? https://github.com/Guanghan/darknet/blob/master/scripts/convert.py)  
 -run process.py in obj/data folder to create train.txt and test.txt  
