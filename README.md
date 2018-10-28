@@ -33,7 +33,7 @@ cd ..
 cp howToTrainYolo/yolo-obj.cfg howToTrainYolo/obj.names howToTrainYolo/obj.data darknet/cfg/  
 cp NFPA\ dataset/* darknet/data/obj  
 cp howToTrainYolo/process.py darknet/data/obj  
-python2.7 darknet/data/obj/process.py  
 cd darknet  
+python2.7 data/obj/process.py  
 wget https://pjreddie.com/media/files/darknet53.conv.74  
 ./darknet detector train cfg/obj.data cfg/yolo-obj.cfg darknet53.conv.74  
