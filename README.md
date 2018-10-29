@@ -1,5 +1,6 @@
 # trainYolo
 Stuff to prepare for training object detection
+(Set burnin to 0 for training rate to start high)
 
 -BBoxLabelTool for labeling images: https://github.com/puzzledqs/BBox-Label-Tool
 
